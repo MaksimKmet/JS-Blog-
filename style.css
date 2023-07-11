@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-page {
+    display: flex;
+    background-color: rgb(57, 56, 56);
+    margin: 2% 8% ;
+}
+
+.secondary-block {
+    width: 30%;
+    background-image: url(/img/tmpts_jgnzq.png) ;
+    border-right: solid greenyellow 3px;
+    
+}
+.secondary-block h2{
+    rotate: -90deg;
+    display: flex;
+    padding: 50% 0;
+    font-size: 50px;
+    font-weight: 500;
+}   
+
+.primary-block {
+    padding: 5%;
+}
+
+.title-block {
+    margin-bottom: 5%;
+}
+.title-block h1 {
+    font-size: 40px;
+}
+.title-block p {
+    font-size: 20px ;
+    font-weight: 400 ;
+    color: rgb(140, 137, 137);
+}
+
+.info {
+    width: 90%;
+
+}
+
+input {
+    border: 1px solid rgb(3, 194, 82);
+    background-color: transparent;
+    color: #fff;
+    padding: 7px 15px;
+    width: 95%;
+    height: 35px;
+    margin: 10px 0;
+    font-weight: 100;
+
+}
+
+.btn-sub {
+    padding: 20px 40px;
+    background-color: rgb(175, 253, 162);
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-sub:hover {
+    background-color: rgb(62, 90, 57);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.under_input_line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.login-block {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.login-block a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
