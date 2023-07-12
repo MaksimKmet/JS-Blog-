@@ -25,10 +25,12 @@
 
           <form action="/">
               <div class="info">
-                <input class="fname" type="text" name="name" placeholder="Enter your name" maxlength="20">
-                <input type="text" name="name" placeholder="Enter your email">
-                <input type="text" name="name" placeholder="Enter password">
-                <input type="text" name="name" placeholder="Confirm password">
+                <input class="fname" type="text" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Enter your name" maxlength="20">
+                <input type="text" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Enter your email">
+                <input type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off"
+                style="-webkit-text-security: square;" placeholder="Enter password">
+                <input type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" 
+                style="-webkit-text-security: square;"placeholder="Confirm password">
                 <div class="under_input_line">
                   <button class="btn-sub" type="submit" href="/">SUBMIT</button>
                     <div class="login-block">
