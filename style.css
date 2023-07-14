@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(28, 27, 27);
     color: #fff;
     font-family: 'Oswald', sans-serif;
+    cursor:auto;
 }
 
 /* -------------SignUP Page------------- */
@@ -14,32 +15,32 @@ body {
 .main-page {
     display: flex;
     background-color: rgb(57, 56, 56);
-    margin: 2% 8% ;
+    margin: 5vh 10vw;
 }
 
 .secondary-block {
-    width: 30%;
+    display: flex;
+    width: 25vw;
     height: 85vh;
-    background-image: url(/img/tmpts_jgnzq.png) ;
+    background-image: url(img/image\ \(2\).png) ;
     background-repeat: no-repeat;
     background-size: cover;
     border-right: solid greenyellow 3px;
     
 }
 .secondary-block h2{
-    rotate: -90deg;
-    display: flex;
-    padding: 50% 0;
+    transform: rotate(270deg);
+    margin: auto;
     font-size: 50px;
     font-weight: 500;
 }   
 
 .primary-block {
-    padding: 5%;
+    margin: auto;
 }
 
 .title-block {
-    margin-bottom: 5%;
+    margin-bottom: 4vh;
 }
 .title-block h1 {
     font-size: 40px;
@@ -50,17 +51,18 @@ body {
     color: rgb(140, 137, 137);
 }
 
-.info {
-    width: 90%;
-
+form {
+    width: 43vw;
 }
+
+
 
 input {
     border: 1px solid rgb(3, 194, 82);
     color: #fff;
     background-color: rgb(57, 56, 56);
     padding: 7px 15px;
-    width: 100%;
+    width: 40vw;
     height: 35px;
     margin: 10px 0;
     font-weight: 100;

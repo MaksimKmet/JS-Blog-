@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
    <div class="main-page">
@@ -20,19 +19,21 @@
 
         <div class="title-block">
           <h1>Welcome</h1>
-            <p>Let's sign you up quickly</p>
+            <p>Let's log you in quickly</p>
         </div>
 
 
           <form action="/">
               <div class="info">
-                <input class="fname" type="text" name="name" placeholder="Enter your name" maxlength="20">
-                <input type="text" name="name" placeholder="Enter your email">
+                <input type="text" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Enter your email">
+                <input type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off"
+                style="-webkit-text-security: square;" placeholder="Enter password">
+               
                 <div class="under_input_line">
-                  <button class="btn-sub" type="submit" href="/">LOGIN</button>
+                  <button class="btn-sub" type="submit" href="#">LOGIN</button>
                     <div class="login-block">
-                      <p>don't have an account?</p>
-                      <a href="SignUpPage.html">sign-up</a>
+                      <p>already have an account?</p>
+                      <a href="SignUpPage.html">log-in</a>
                     </div>
                 </div>
              </div>
