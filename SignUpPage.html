@@ -23,16 +23,32 @@
         </div>
 
 
-          <form action="/">
+          <form action="/" id="form">
               <div class="info">
-                <input class="fname" type="text" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Enter your name" maxlength="20">
-                <input type="text" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Enter your email">
-                <input type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off"
-                style="-webkit-text-security: square;" placeholder="Enter password">
-                <input type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" 
-                style="-webkit-text-security: square;"placeholder="Confirm password">
+                <div class="input-control">
+                    <input id="username" type="text" name="username" onpaste="return false;" ondrop="return false;" autocomplete="off" placeholder="Enter your name" maxlength="20">
+                  <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                  <input id="email" type="text" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off"  placeholder="Enter your email">
+                  <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                  <input id="password" type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off"
+                  style="-webkit-text-security: square;" placeholder="Enter password">
+                  <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                  <input id="password2" type="password" name="name" onpaste="return false;" ondrop="return false;" autocomplete="off" 
+                  style="-webkit-text-security: square;"placeholder="Confirm password">
+                  <div class="error"></div>
+                </div>
+
                 <div class="under_input_line">
-                  <button class="btn-sub" type="submit" href="#">SUBMIT</button>
+                  <button class="btn-sub" type="submit">SUBMIT</button>
                     <div class="login-block">
                       <p>already have an account?</p>
                       <a href="javascript: void(0)" id="load1" onclick="changePageFunction()" >log-in</a>
@@ -51,7 +67,7 @@
 
 
 
-    <script src="index.js">
+    <script src="validationForm_SignUp.js">
     
     </script>
 

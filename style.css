@@ -59,7 +59,7 @@ form {
 
 input {
     border: 1px solid rgb(3, 194, 82);
-    color: #fff;
+    color: #7bff00;
     background-color: rgb(57, 56, 56);
     padding: 7px 15px;
     width: 40vw;
@@ -83,6 +83,12 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+.error {
+    font-size: 12px;
+    margin: -10px 0 1px 0;
+    color: rgb(48, 130, 237);
 }
 
 .btn-sub {
