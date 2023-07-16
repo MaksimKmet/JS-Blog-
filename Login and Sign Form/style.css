@@ -22,7 +22,7 @@ body {
     display: flex;
     width: 25vw;
     height: 85vh;
-    background-image: url(img/image\ \(2\).png) ;
+    background-image: url(/img/image\ \(2\).png) ;
     background-repeat: no-repeat;
     background-size: cover;
     border-right: solid greenyellow 3px;
