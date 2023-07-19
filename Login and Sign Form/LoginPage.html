@@ -10,42 +10,57 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="main-page">
-      <div class="secondary-block">
-        <h2>Login</h2>
+  
+  <div class="main-page">
+    <div class="secondary-block">
+      <h2>Login</h2>
+    </div>
+
+    <div class="primary-block">
+
+      <div class="title-block">
+        <h1>Welcome</h1>
+          <p>Let's log you in quickly</p>
       </div>
 
-      <div class="primary-block">
+      <div class="container">
+        <form id="signup" class="form">
+            <div class="form-field">
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+                <small></small>
+            </div>
 
-        <div class="title-block">
-          <h1>Welcome</h1>
-            <p>Let's log you in quickly</p>
-        </div>
+            <div class="form-field">
+                <input type="password" name="password" id="password" autocomplete="off"placeholder="Password">
+                <small></small>
+            </div>
 
+            <div class="under_input_line">
 
-         
-                <div class="under_input_line">
-                  <button class="btn-sub" type="login" href="#">LOGIN</button>
-                    <div class="login-block">
-                      <p>already have an account?</p>
-                      <a href="LoginPage.html" id="SigA" >log-in</a>
-                    </div>
-                </div>
-             </div>
-             
-            </form>
-     </div>
+                <div class="form-field">
+                    <input type="submit" value="Sign Up" class="btn-sub" >
+                  </div>
+                  <div class="login-block">
+                      <p>don't have an account?</p>
+                      <a href="javascript:delay('SignUpPage.html')" id="SigA">sign-up</a> 
+                  </div>
+              </div>
+        </form>
     </div>
-  
-  
-   
+
+     
+   </div>
+  </div>
 
 
 
 
-
-    <script src="index.js">
-    
+    <script src="validationForm.js">
+        // function for delaying changes page ---
+        function delay(URL) {
+        setTimeout( function() { window.location = URL}, 1000 );
+    }
+        // --------
     </script>
 
 </body>

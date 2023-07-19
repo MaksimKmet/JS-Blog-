@@ -5,6 +5,8 @@ const confirmPasswordEl = document.querySelector('#confirm-password');
 
 const form = document.querySelector('#signup');
 
+
+
 const checkUsername = () => {
 
     let valid = false;
@@ -116,7 +118,7 @@ const showSuccess = (input) => {
 }
 
 
-form.addEventListener('submit', function (e) {
+form.addEventListener('submit',  function (e) {
     // prevent the form from submitting
     e.preventDefault();
 
@@ -169,3 +171,10 @@ form.addEventListener('input', debounce(function (e) {
     }
 }));
 
+
+ // function for delaying changes page ---
+  
+function delay(URL) {
+    setTimeout( function() { window.location = URL}, 1000 );
+}     
+// --------

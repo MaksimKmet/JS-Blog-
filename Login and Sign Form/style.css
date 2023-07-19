@@ -107,7 +107,6 @@ small {
     font-size: 20px;
     font-weight: 600;
     border: none;
-    margin-top: 4vh;
 }
 
 .btn-sub:hover {
@@ -128,6 +127,7 @@ small {
 .login-block {
     font-size: 20px;
     font-weight: 200;
+    margin-top: 0.5vh;
 
 }
 .login-block a {
