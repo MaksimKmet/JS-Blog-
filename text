@@ -1,8 +1,8 @@
 I finished Sign up form unfortunately i have problem with longest error under password, will need correct that (solved or fixed this one)
 
 
-Next step async change between login and Sign Pages
+Next step async change between login and Sign Pages(Done, next one: error with login page, but solve is add new js file with element which we have on page, errors is because some element that we have, we don't have on login page )
 
 
-And last we need build skeleton of blog app of course not professional, light but correct in work. 
+And last we need build skeleton of blog app of course not professional, light but correct in work. made tomorrow early since 5 hours
     we have time to 20.07
